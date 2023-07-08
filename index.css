@@ -44,8 +44,9 @@ padding:15px 30px ;
     background-color:#FFF8F3 ;
 }
 .baner{
-    padding:10px 10px 10px  150px;
+    padding:30px 30px ;
     display: flex;
+    align-items: center;
 }
 .banner-geating{}
 .baner .profile{
@@ -53,4 +54,3 @@ padding:15px 30px ;
     height: 676px;
     flex-shrink: 0;}
 
-}
