@@ -99,7 +99,7 @@ padding-bottom:134px;
     padding: 230px;
     border-radius: 10px;
 background: #FFF8F3;
-margin:150px 230px  ;
+margin: 130px 0 ;
 }
 
 
@@ -118,4 +118,8 @@ font-weight: 700;
     font-size: 18px;
     font-weight: 400;
     line-height:40px;
+}
+main{
+max-width: 1140px ;
+    margin:0 auto ;
 }
