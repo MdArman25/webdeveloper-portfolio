@@ -66,14 +66,11 @@ nav a {
     justify-content: space-between;
     align-items: center;
 }
-.padding{
-    padding: ;
-}
+
 .baner-contain{
 max-width: 500px;
-padding-bottom:134px;
+padding-bottom:133px;
 }
-
 .banner-geating {
     font-size: 45px;
     color: #474747 ;
@@ -96,7 +93,9 @@ padding-bottom:134px;
     flex-shrink: 0;
 }
 .about{
-    padding: 230px;
+    padding: 200px;
+    height: 370px;
+
     border-radius: 10px;
 background: #FFF8F3;
 margin: 130px 0 ;
@@ -122,4 +121,99 @@ font-weight: 700;
 main{
 max-width: 1140px ;
     margin:0 auto ;
+}
+.tittle{
+display: flex;
+    color: #757575;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px
+}
+.about-info-container{
+    display: flex;
+justify-content:space-between;
+line-height: 2px;
+padding-left: 10px;
+}
+.about-info{
+text-align: center;
+}
+
+/* box */
+
+.box-tittle{
+    text-align: center;
+}
+.size{
+    width: 759px;
+text-align: center;
+padding:0 150px;
+}
+.box{
+   display: grid;
+   grid-template-rows: repeat();
+    width: 267px;
+height: 377px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+.description{
+    padding: 30px;
+    width: 201px;
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.img{
+    padding:30px 30px 0px 30px;
+}
+.name{
+ padding-left: 30px;
+}
+/* .details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ 
+}
+.about-contain{
+padding-top: 100px;
+
+} */
+.section-tittle{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+
+.column-tittle{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.about-contain{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 99px
+    ;
+}
+.botoon{display:flex;
+justify-content: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+/* footer-sectition */
+.fot-tittle{
+
 }
